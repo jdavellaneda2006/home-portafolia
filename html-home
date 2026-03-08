@@ -1,1 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HOME</title>
+</head>
+<body>
+ <header class="navbar">
+  <h2 class="navbar-logo">Portafolio</h2>
+  <nav>
+    <ul class="nav-list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#services">Services</a></li>
+    </ul>
+  </nav>
+</header>
+  <header id="home" class="home-section">
+  <div class="home-container">
+    <p class="home-role">Creador Digital</p>
+    <h1 class="home-title">Hola, soy</h1>
+    <h1 class="home-name">Juan Diego</h1>
+    <p class="home-description">
+      Bienvenidos a mi portafolio personal, aquí les mostraré varios de mis proyectos,
+      ideas y trabajos donde combino creatividad y diseño.
+    </p>
+    
+    <div class="home-buttons">
+      <button class="btn primary-btn">Contáctame</button>
+      <button class="btn secondary-btn">Ver Portafolio</button>
+    </div>
+  </div>
+</header>
 
