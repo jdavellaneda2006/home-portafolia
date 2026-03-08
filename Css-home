@@ -1,1 +1,90 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color:#DE1637;
+  color: #ffffff;
+  line-height: 1.6;
+}
+.navbar {
+ display:flex; 
+ justify-content:space-between; 
+ align-items:baseline; 
+ padding:15px 80px;
+ 
+}
+.nav-list{
+ display:flex;
+ list-style:none;
+ gap:25px;
+ margin:10%;
+ padding:10%;
+  background-color:#DE1637; 
+}
+.navbar a{
+ text-decoration:none;
+ color:white;
+ font-size:14px 10px;
+  padding:20px 20px;
 
+}
+
+.home-section {
+  background: #9fd5d1;
+  color: black;
+  padding: 80px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.home-container {
+  max-width: 504px;
+}
+
+.home-role {
+  color:#DE1637;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.home-title {
+  font-size: 42px;
+  font-weight:700;
+}
+
+.home-name {
+  font-size: 48px;
+  font-weight: 800;
+  color: #DE1637;
+  margin-bottom: 20px;
+}
+
+.home-description {
+  color: #00000;
+  margin-bottom: 25px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 15px;
+}
+
+.btn {
+  padding: 12px 25px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+}
+
+.primary-btn {
+  background-color: #DE1637;
+  color: white;
+}
+
+.secondary-btn {
+  background-color: #DE1637;
+  color: white;
+}
